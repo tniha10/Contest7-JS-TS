@@ -8,7 +8,6 @@ function rankStudents(students) {
         if (i > 0 && sortedStudents[i].score !== sortedStudents[i - 1].score) {
             rank = i + 1;
         }
-
         // Add rank to the student object
         sortedStudents[i] = {
             ...sortedStudents[i],
